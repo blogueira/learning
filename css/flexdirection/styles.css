@@ -1,0 +1,48 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+.container {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -150px;
+
+    /* position: absolute; */
+    /* width: 300px; */
+    /* height: 200px; */
+    z-index: 15;
+    /*
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px; */
+    flex-direction: row;
+    background: yellow;
+    display: flex;
+   /*  width: 400px; */
+    /* flex-flow: row wrap; */
+}
+
+[class*="box--"] {
+    display: flex;
+    margin: .25rem;
+    height: 2rem;
+    padding: .25rem;
+}
+
+.box--mama {
+    height: 10em;
+    flex-direction: column;
+    background: red;
+    flex: 20%;
+}
+
+.box--full {
+    background: green;
+    flex: 50%;
+}

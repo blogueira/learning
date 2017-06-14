@@ -1,0 +1,62 @@
+.parent {
+    
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: red;
+  display: flex;
+     display: -webkit-flex;
+        
+   display: flex;
+   -webkit-flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  /*
+  justify-content: space-around;
+  flex-direction: column;
+  flex-direction: row;
+      */
+
+}
+.firstchild {
+ /* flex-direction: column;
+ flex-direction: row;
+  */
+}
+.childlogo {
+    /*
+//  width: 80px;
+height: 80px; 
+margin: auto;  
+justify-content: space-around;
+flex-direction: column;
+  */
+}
+
+.childlogin {
+    /*
+  //width: 10px;  
+  //height: 40px;
+  // min-height: 20px;
+  //margin: auto; 
+  //overflow:hidden;
+  */
+}
+
+
+
+.childtexto {
+    /*
+  min-width: 50px;  
+  min-height: 50px;
+  height: 0px; 
+  margin: auto;  
+  overflow:hidden;
+  flex-direction: column;
+        */
+}

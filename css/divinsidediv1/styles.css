@@ -1,0 +1,73 @@
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+.container {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -240px;
+
+    /* position: absolute; */
+    /* width: 300px; */
+    /* height: 200px; */
+    z-index: 15;
+    /*
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px; */
+    flex-direction: row;
+    background-color: #21374c;
+    display: flex;
+   /*  width: 400px; */
+    /* flex-flow: row wrap; */
+}
+
+[class*="login-"] {
+    display: flex;
+    margin: .25rem;
+    height: 2rem;
+    padding: .25rem;
+}
+
+.login-geral {
+    height: 11em;
+    flex-direction: column;
+    /* background: red; */
+    flex: 20%;
+}
+
+.login-texto {
+    height: 11em; 
+    flex-flow: row wrap;
+     /* background: red; */
+    flex: 60%;
+}
+
+.login-campos-full {
+        padding: 0rem;
+    margin: 0rem;
+    flex-direction: column;
+     /* background: purple;  */
+    height: 60px;
+    flex: 1 1 100%;
+}
+
+.login-campos-half {
+    padding: 0rem;
+    margin: 0rem;
+    flex-direction: column;
+     /* background: purple;  */
+    height: 110px;
+   /* flex: 1 1 30%; */
+}
+
+.login-caixa {
+     /* background: white; */
+    flex: 50%;
+}

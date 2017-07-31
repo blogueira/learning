@@ -10,6 +10,11 @@ zol[i,o].to_enum.with_index.reverse_each do |x, z|
   p zol[i,o][z]
 end
 
+myar = [1, 6, 12, 21, 15, 9, 8]
+myar.select { |za| za > 10 }
+=> [12, 21, 15]
+
+
 vim
 
 :set expandtab
